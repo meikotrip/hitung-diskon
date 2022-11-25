@@ -1,0 +1,76 @@
+body {
+    background: url(./background.jpg) center;
+    margin: 8% 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.title {
+    font-family: 'Bitter', serif;
+}
+
+.shadow-card {
+    box-shadow: 0rem 0rem 3rem #030003 !important;
+}
+
+.bg-violet {
+    background-color: #400d50;
+}
+
+.size {
+    margin: 0 16px 0;
+    padding: 6px 30px;
+}
+
+.btn-violet {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #6e2b8e;
+    --bs-btn-border-color: #6e2b8e;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #511d68;
+    --bs-btn-hover-border-color: #511d68;
+    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #511d68;
+    --bs-btn-active-border-color: #511d68;
+    --bs-btn-active-shadow: inset 0 3px 5pxrgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #6e2b8e;
+    --bs-btn-disabled-border-color: #6e2b8e;
+}
+
+@media screen and (max-width: 435px) {
+    .title {
+        font-size:x-large;
+    }
+    #submit, #reset {
+        font-size: 0.65rem;
+        margin: 2px 6px 0;
+        padding: 5px 24px;
+    }
+    .input-group-sm>.input-group-text {
+        font-size: 0.65rem;
+        padding: 0.25rem 0.5rem;
+    }
+    #error-message {
+        font-size: small;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .title {
+        font-size:large;
+    }
+    #submit, #reset {
+        font-size: 0.65rem;
+        margin: 2px 6px 0;
+        padding: 5px 18px;
+    }
+    .input-group-sm>.input-group-text {
+        font-size: 0.5rem;
+        padding: 0.125rem 0.25rem;
+    }
+    #error-message {
+        font-size: x-small;
+    }
+}
+
